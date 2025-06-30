@@ -10,12 +10,12 @@ def home(request):
         city = 'Indore'
 
     # Weather API
-    weather_url = f'https://api.openweathermap.org/data/2.5/weather?q={city}&appid=1787ac1358a851089898c332b5ce1837'
+    weather_url = f'https://api.openweathermap.org/data/2.5/weather?q={city}&appid=''
     PARAMS = {'units': 'metric'}
 
     # Google Custom Search API (Image)
-    API_KEY = 'AIzaSyDQBcS3nuVaOiibwVBooKS8uiH9Mq0NWKU'
-    SEARCH_ENGINE_ID = '4013d2b8671f441be'
+    API_KEY = ''
+    SEARCH_ENGINE_ID = ''
     query = city + " 1920x1080"
     image_url = None  # Fallback
 
